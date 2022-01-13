@@ -162,7 +162,6 @@ td, th{
     clear: left;
 }
 
-
 p:first-line{
     font-style: italic;
 }
@@ -238,6 +237,13 @@ p:first-line{
 
 .benefitsImage{
     width: 60%;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.benefitsImage:hover{
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .video{
