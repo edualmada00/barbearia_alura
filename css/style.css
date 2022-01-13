@@ -96,10 +96,6 @@ nav a:hover{
     margin: 20px 0 0;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 form {
     margin: 40px 0;
@@ -166,6 +162,18 @@ td, th{
     clear: left;
 }
 
+
+p:first-line{
+    font-style: italic;
+}
+
+.principal{
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -186,6 +194,12 @@ td, th{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.contentMapa{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p{
@@ -194,7 +208,8 @@ td, th{
 }
 
 .benefits{
-    padding: 3em 0;
+    padding: 3em 0;;
+    background: #888888;
 }
 
 .benefitsContent{
@@ -215,6 +230,10 @@ td, th{
 
 .itens:first-child{
     font-weight: bold;
+}
+
+.itens:before{
+    content: "✭";
 }
 
 .benefitsImage{
