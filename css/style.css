@@ -4,8 +4,8 @@ header {
 
 .box{
     position: relative;
-    margin: 0 auto;
     width: 940px;
+    margin: 0 auto;
 }
 
 nav {
@@ -23,8 +23,8 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    color: #000000;
     font-size: 22px;
+    color: #000000;
 }
 
 nav a:hover{
@@ -33,23 +33,22 @@ nav a:hover{
 }
 
 .catalogue{
-    padding: 50px 0;
-    margin: 0 auto;
     width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 
 .catalogue li{
-    border: 2px solid #000000;
-    box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
-    border-radius: 10px;
     text-align: center;
-    padding: 30px 20px;
-    color: #000000;
-    margin: 0 1.5%;
     width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .catalogue li:hover{
@@ -65,8 +64,8 @@ nav a:hover{
 }
 
 .catalogue h2{
-    font-weight: bold;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .catalogueInfo{
@@ -174,12 +173,13 @@ td, th{
     font-style: italic;
 }
 
-.benefitsImage{
-    width: 60%;
-}
-
 .utensilios{
     width: 120px;
     float: left;
     margin:  0 20px 20px 0;
 }
+
+.benefitsImage{
+    width: 60%;
+}
+
